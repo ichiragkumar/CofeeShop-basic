@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="384dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/home" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="90dp"
+        android:layout_marginTop="600dp"
+        android:text="C O F E E  ||  S H O P"
+        android:textSize="40dp"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/toDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="730dp"
+        android:backgroundTint="#691313"
+
+        android:text="Explore"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_media_next"
+        app:iconPadding="20dp" />
+
+
+</RelativeLayout>
